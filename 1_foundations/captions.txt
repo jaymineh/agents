@@ -1,0 +1,71 @@
+And this is the the real end of week one exercises that you need to take seriously because these are
+
+important.
+
+First and foremost, of course, to state the obvious, you should build this yourself.
+
+It's a valuable tool.
+
+It's really cool.
+
+You should deploy it.
+
+It is the future of resumes, an interface you can chat with about yourself.
+
+And next, of course, you should improve the resources that are supplied to the chatbot.
+
+This is very vanilla, just a LinkedIn profile.
+
+You can add much more detail about your background.
+
+You can add in lots of of important stuff.
+
+And you could answer.
+
+You could give answers to all of the typical career y kinds of questions.
+
+So you can make sure that you've got a really robust knowledge base of data there.
+
+If you know how Rag works, you could implement Rag.
+
+You could put in a coma data store.
+
+If you've done my LM engineering course, then you know this stuff super well.
+
+You could build that in there, and you could have it doing something that has like a bunch of different
+
+documents that it's able to to refer to in giving good answers with relevant context.
+
+And then you should add in more tools.
+
+You could have a tool that can make a SQL query to a database to look at prior questions that can be
+
+answered, and a database where it could add in questions that require an answer.
+
+So you could have something that's quite interactive where where the LM is able to to add questions
+
+to a database and it can text you and then it'll send you a push notification, and then you can come
+
+in and add the answers, and it will then provide the answers later to the user.
+
+So you could add all of that stuff, which would be really interesting.
+
+And then the final exercise for you, of course, is that you may have noticed that whilst in the last
+
+lab we built an evaluator.
+
+I didn't actually include the evaluator here because it just felt like that was too, too much, too
+
+much for one lab.
+
+But you should now bring that back.
+
+Let's have the evaluator in there to make sure that all of the responses that people give very professional
+
+and crisp and do well.
+
+So these are all good exercises for you to get involved in.
+
+And there's also plenty of user interface stuff you could do to make this nicer.
+
+You can make that Gradio app look prettier for sure
