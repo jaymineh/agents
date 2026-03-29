@@ -1,0 +1,111 @@
+Well, next it's over to you.
+
+The thing we want to do is make life harder for our deep research agent.
+
+We want to put it to work.
+
+So we want to really take this to the next level.
+
+It's still reasonably surface level in terms of the substantive ness of these, this deep research reporting.
+
+And it's something that is giving you an easy starting point to turn this into something which is a
+
+fully baked product.
+
+And here are some of the things that I am asking you to do and give this a shot.
+
+Do do do your best.
+
+So first of all, we can learn a lesson from the way that OpenAI does it themselves.
+
+One of the tricks that you'll see that it does is that when you first ask for a deep research challenge,
+
+the first thing that happens is it comes back and asks for some questions.
+
+And so it would be great for us to build that.
+
+You can imagine.
+
+That's very simple.
+
+Agent step.
+
+The first step is to ask, ask.
+
+Come up with three clarifying questions associated with this query, and then make sure that you incorporate
+
+those clarifying questions in what searches are done.
+
+Take them into account.
+
+But then the the hardest part of this is that you really want to turn that manager that we have from
+
+just being a Python script and a series of function calls into being something that's truly Agentic
+
+take some hints from what we did earlier in the week when we were taking agents as tools, and we were
+
+doing handoffs and build some of that into the deep research so that it has some more autonomy to decide
+
+whether it wants to do more searches or not.
+
+You might want to put a cap on that, but you put some controls in there.
+
+But but you want to try and give it some ability to go off and explore and also potentially to refine
+
+the queries based on what it's learned so far.
+
+You could be thinking about adding in the kind of Evaluator optimizer design patterns, so that there's
+
+another agent that gets to check the work of the deep researcher as well.
+
+So all of these patterns that you can add, but most importantly, the overall autonomous manager to
+
+get to a point where more work happens, more analysis takes place so that you get a more comprehensive
+
+and more compelling outcome.
+
+Something which really can take several minutes and come back with something that is adding a lot of
+
+value.
+
+So that is the challenge for you.
+
+I would love to see your results.
+
+I'd love it if you could push your your projects to the community contributions folder and put your
+
+work into its own folder so that people can run your deep research agent separately.
+
+Perhaps you may need to do some fiddling around with gradio to be able to do things like surface those
+
+questions, but it's great fun to work with and it will be an awesome project.
+
+And it's also something that you can then showcase.
+
+You could because it's a Gradio app.
+
+You can of course type radio deploy to deploy it to hugging face, and that way you can have a spaces
+
+where it's live.
+
+You can share it on LinkedIn, and you can get others to try it out too, and be able to show people
+
+about the expertise that you've acquired in building sophisticated agentic AI.
+
+And with that, that wraps up week two, and I have had so much fun.
+
+You can tell I absolutely adore OpenAI agents SDK, and I'm excited to come back to it again in week
+
+six.
+
+But as it happens next week, we're working with crew I and crew AI is my second favorite, so it may
+
+not be quite quite as as dear in my heart as OpenAI agents SDK, but it's my second favorite.
+
+It's also really cool.
+
+It's very close to OpenAI agents SDK, and of course it has some different concepts, and there's some
+
+ways in which it's definitely better, as you will see.
+
+And I can't wait to show you.
