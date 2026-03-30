@@ -1,0 +1,109 @@
+And so I hardly need to tell you your challenge for this week.
+
+Your challenge is to make the sidekick your own, build it out, add in tools, add in some tools that
+
+are actually specific to things that you do that are able to to give it powers to do things that you
+
+want to do.
+
+Now, some other more fundamental ways that you can improve it.
+
+One of them that I realized is a note to take from the way that OpenAI does theirs is we could encourage
+
+the, the, the llms to start by asking clarifying questions.
+
+You could have it so that the first thing it does is it asks for three clarifying questions, and then
+
+it uses them as part of its ongoing work.
+
+So that would be a really important change.
+
+Another change would be to build out the graph a bit more.
+
+We've put a lot of power into that one assistant, and the problem with that is that we're expecting
+
+a lot.
+
+We're expecting one model to to be able to to take a lot of different tools and be very flexible.
+
+And the danger is that it loses some of its abilities.
+
+It loses some coherence because the context is so long, because there's so much it can do that it gets
+
+stuck.
+
+And you can improve that by adding more agents to the mix.
+
+For example, you could have a planning agent that first of all, that's the first.
+
+The main assistant is also a planner and decides on what tasks need to be done, and then delegates
+
+them to the execution to the worker.
+
+Um, and so you could do it that way.
+
+These things all have pros and cons.
+
+The benefit is that you've then you're able to divide a bigger problem into smaller steps, and the
+
+autonomous agent can figure out how to do that.
+
+The downside is that it makes it harder for the agents to kind of plot its own course.
+
+And based on what comes out of that first task, maybe it would decide to do things a bit differently
+
+after that.
+
+So by by planning you sort of you lose some of that, that freedom that you get from doing it all with
+
+one agent.
+
+So these are all things to experiment with.
+
+There's no right answer.
+
+More than anything else.
+
+You need to be willing and ready to experiment.
+
+But add on tools, add on a sequel tool that's easy to do.
+
+And on the topic of sequel, you should also improve the memory.
+
+The memory we're using is just the basic in-memory memory, and you should change that to be the sequel
+
+memory that we already did earlier in the week, and just put that in there, and that way it will be
+
+able to remember who you are if you come back, if you use radios, uh, feature to be able to log in
+
+and identify yourself, then you could use your username as the conversation thread and be able to continue
+
+a conversation and keep tasks build up a sort of library of tasks that you have so, so much you could
+
+do with this.
+
+It's a it's like I'm, I'm rather than giving you specific instructions, I'm asking you to be autonomous
+
+with this.
+
+Go and show your own agency and build this into something amazing, absolutely amazing.
+
+And then share it.
+
+Post about it on LinkedIn so I can weigh in and see examples and and show me the tools.
+
+Put them in community contributions so that people can add them in, put in your tools, libraries that
+
+people could import and other functionality.
+
+And I just can't wait to see where people take this project.
+
+And I hope, like me, that you're something of a convert at this point.
+
+Maybe you always did like Landgraf, but but now, uh, now I'm drinking the Kool-Aid.
+
+I'm really, really happy about this week.
+
+It's been very exciting.
+
+And with that, it feels like we were only just starting week four.
