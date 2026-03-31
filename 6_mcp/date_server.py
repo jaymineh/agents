@@ -1,3 +1,4 @@
+import sys
 from datetime import date
 from mcp.server.fastmcp import FastMCP
 
@@ -12,4 +13,5 @@ async def get_current_date() -> str:
     return date.today().isoformat()
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    transport = "sse" if "--sse" in sys.argv else "stdio"
+    mcp.run(transport=transport)

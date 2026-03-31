@@ -20,10 +20,10 @@ lastnames = ["Patience", "Bold", "Systematic", "Crypto"]
 
 if USE_MANY_MODELS:
     model_names = [
-        "gpt-4.1-mini",
-        "deepseek-chat",
-        "gemini-2.5-flash-preview-04-17",
-        "grok-3-mini-beta",
+        "gpt-4.1-mini",                          # OpenAI directly
+        "deepseek/deepseek-chat-v3-0324",         # DeepSeek V3 via OpenRouter
+        "gemini-2.5-flash-preview-04-17",         # Gemini via Google API
+        "x-ai/grok-3-mini-beta",                  # Grok 3 Mini via OpenRouter
     ]
     short_model_names = ["GPT 4.1 Mini", "DeepSeek V3", "Gemini 2.5 Flash", "Grok 3 Mini"]
 else:
