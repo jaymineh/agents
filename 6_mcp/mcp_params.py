@@ -4,7 +4,7 @@ from market import is_paid_polygon, is_realtime_polygon
 
 load_dotenv(override=True)
 
-brave_env = {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")}
+tavily_env = {"TAVILY_API_KEY": os.getenv("TAVILY_API_KEY")}
 polygon_api_key = os.getenv("POLYGON_API_KEY")
 
 # The MCP server for the Trader to read Market Data
@@ -27,7 +27,7 @@ trader_mcp_server_params = [
     market_mcp,
 ]
 
-# The full set of MCP servers for the researcher: Fetch, Brave Search and Memory
+# The full set of MCP servers for the researcher: Fetch, Tavily Search and Memory
 
 
 def researcher_mcp_server_params(name: str):
@@ -35,12 +35,16 @@ def researcher_mcp_server_params(name: str):
         {"command": "uvx", "args": ["mcp-server-fetch"]},
         {
             "command": "npx",
-            "args": ["-y", "@modelcontextprotocol/server-brave-search"],
-            "env": brave_env,
+            "args": ["-y", "tavily-mcp"],
+            "env": tavily_env,
         },
         {
             "command": "npx",
             "args": ["-y", "mcp-memory-libsql"],
-            "env": {"LIBSQL_URL": f"file:./memory/{name}.db"},
+            "env": {
+                **os.environ,
+                "LIBSQL_URL": f"file:./memory/{name}.db",
+                "NODE_OPTIONS": "--experimental-global-customevent",
+            },
         },
     ]
